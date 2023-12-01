@@ -7,61 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		29E2B4AB2B1A48AF00316595 /* buildNetflixApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E2B4AA2B1A48AF00316595 /* buildNetflixApp.swift */; };
-		29E2B4AD2B1A48AF00316595 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E2B4AC2B1A48AF00316595 /* ContentView.swift */; };
-		29E2B4AF2B1A48B100316595 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29E2B4AE2B1A48B100316595 /* Assets.xcassets */; };
-		29E2B4B22B1A48B100316595 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29E2B4B12B1A48B100316595 /* Preview Assets.xcassets */; };
-		29E2B4BC2B1A48B100316595 /* buildNetflixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E2B4BB2B1A48B100316595 /* buildNetflixTests.swift */; };
-		29E2B4C62B1A48B100316595 /* buildNetflixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E2B4C52B1A48B100316595 /* buildNetflixUITests.swift */; };
-		29E2B4C82B1A48B100316595 /* buildNetflixUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E2B4C72B1A48B100316595 /* buildNetflixUITestsLaunchTests.swift */; };
+		29E2B5182B1A56EC00316595 /* buildNetflixApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E2B5172B1A56EC00316595 /* buildNetflixApp.swift */; };
+		29E2B51A2B1A56EC00316595 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E2B5192B1A56EC00316595 /* ContentView.swift */; };
+		29E2B51C2B1A56EE00316595 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29E2B51B2B1A56ED00316595 /* Assets.xcassets */; };
+		29E2B51F2B1A56EE00316595 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29E2B51E2B1A56EE00316595 /* Preview Assets.xcassets */; };
+		29E2B5292B1A56EE00316595 /* buildNetflixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E2B5282B1A56EE00316595 /* buildNetflixTests.swift */; };
+		29E2B5332B1A56EE00316595 /* buildNetflixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E2B5322B1A56EE00316595 /* buildNetflixUITests.swift */; };
+		29E2B5352B1A56EE00316595 /* buildNetflixUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E2B5342B1A56EE00316595 /* buildNetflixUITestsLaunchTests.swift */; };
+		29E2B5462B1A58BA00316595 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 29E2B5452B1A58BA00316595 /* Kingfisher */; };
+		29E2B5482B1A593200316595 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E2B5472B1A593200316595 /* HomeView.swift */; };
+		29E2B54A2B1A595600316595 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E2B5492B1A595600316595 /* Movie.swift */; };
+		29E2B54C2B1A598E00316595 /* StandardHomeMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E2B54B2B1A598E00316595 /* StandardHomeMovie.swift */; };
+		29E2B54E2B1A59C600316595 /* GlobalHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E2B54D2B1A59C600316595 /* GlobalHelpers.swift */; };
+		29E2B5502B1A5B8600316595 /* HomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E2B54F2B1A5B8600316595 /* HomeVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		29E2B4B82B1A48B100316595 /* PBXContainerItemProxy */ = {
+		29E2B5252B1A56EE00316595 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 29E2B49F2B1A48AF00316595 /* Project object */;
+			containerPortal = 29E2B50C2B1A56EC00316595 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 29E2B4A62B1A48AF00316595;
+			remoteGlobalIDString = 29E2B5132B1A56EC00316595;
 			remoteInfo = buildNetflix;
 		};
-		29E2B4C22B1A48B100316595 /* PBXContainerItemProxy */ = {
+		29E2B52F2B1A56EE00316595 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 29E2B49F2B1A48AF00316595 /* Project object */;
+			containerPortal = 29E2B50C2B1A56EC00316595 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 29E2B4A62B1A48AF00316595;
+			remoteGlobalIDString = 29E2B5132B1A56EC00316595;
 			remoteInfo = buildNetflix;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		29E2B4A72B1A48AF00316595 /* buildNetflix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = buildNetflix.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		29E2B4AA2B1A48AF00316595 /* buildNetflixApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buildNetflixApp.swift; sourceTree = "<group>"; };
-		29E2B4AC2B1A48AF00316595 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		29E2B4AE2B1A48B100316595 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		29E2B4B12B1A48B100316595 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		29E2B4B72B1A48B100316595 /* buildNetflixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = buildNetflixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		29E2B4BB2B1A48B100316595 /* buildNetflixTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buildNetflixTests.swift; sourceTree = "<group>"; };
-		29E2B4C12B1A48B100316595 /* buildNetflixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = buildNetflixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		29E2B4C52B1A48B100316595 /* buildNetflixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buildNetflixUITests.swift; sourceTree = "<group>"; };
-		29E2B4C72B1A48B100316595 /* buildNetflixUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buildNetflixUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		29E2B5142B1A56EC00316595 /* buildNetflix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = buildNetflix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29E2B5172B1A56EC00316595 /* buildNetflixApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buildNetflixApp.swift; sourceTree = "<group>"; };
+		29E2B5192B1A56EC00316595 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		29E2B51B2B1A56ED00316595 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29E2B51E2B1A56EE00316595 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		29E2B5242B1A56EE00316595 /* buildNetflixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = buildNetflixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29E2B5282B1A56EE00316595 /* buildNetflixTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buildNetflixTests.swift; sourceTree = "<group>"; };
+		29E2B52E2B1A56EE00316595 /* buildNetflixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = buildNetflixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29E2B5322B1A56EE00316595 /* buildNetflixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buildNetflixUITests.swift; sourceTree = "<group>"; };
+		29E2B5342B1A56EE00316595 /* buildNetflixUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buildNetflixUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		29E2B5472B1A593200316595 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		29E2B5492B1A595600316595 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		29E2B54B2B1A598E00316595 /* StandardHomeMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardHomeMovie.swift; sourceTree = "<group>"; };
+		29E2B54D2B1A59C600316595 /* GlobalHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalHelpers.swift; sourceTree = "<group>"; };
+		29E2B54F2B1A5B8600316595 /* HomeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		29E2B4A42B1A48AF00316595 /* Frameworks */ = {
+		29E2B5112B1A56EC00316595 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29E2B5462B1A58BA00316595 /* Kingfisher in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29E2B5212B1A56EE00316595 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		29E2B4B42B1A48B100316595 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		29E2B4BE2B1A48B100316595 /* Frameworks */ = {
+		29E2B52B2B1A56EE00316595 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -71,58 +83,63 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		29E2B49E2B1A48AF00316595 = {
+		29E2B50B2B1A56EC00316595 = {
 			isa = PBXGroup;
 			children = (
-				29E2B4A92B1A48AF00316595 /* buildNetflix */,
-				29E2B4BA2B1A48B100316595 /* buildNetflixTests */,
-				29E2B4C42B1A48B100316595 /* buildNetflixUITests */,
-				29E2B4A82B1A48AF00316595 /* Products */,
+				29E2B5162B1A56EC00316595 /* buildNetflix */,
+				29E2B5272B1A56EE00316595 /* buildNetflixTests */,
+				29E2B5312B1A56EE00316595 /* buildNetflixUITests */,
+				29E2B5152B1A56EC00316595 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		29E2B4A82B1A48AF00316595 /* Products */ = {
+		29E2B5152B1A56EC00316595 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				29E2B4A72B1A48AF00316595 /* buildNetflix.app */,
-				29E2B4B72B1A48B100316595 /* buildNetflixTests.xctest */,
-				29E2B4C12B1A48B100316595 /* buildNetflixUITests.xctest */,
+				29E2B5142B1A56EC00316595 /* buildNetflix.app */,
+				29E2B5242B1A56EE00316595 /* buildNetflixTests.xctest */,
+				29E2B52E2B1A56EE00316595 /* buildNetflixUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		29E2B4A92B1A48AF00316595 /* buildNetflix */ = {
+		29E2B5162B1A56EC00316595 /* buildNetflix */ = {
 			isa = PBXGroup;
 			children = (
-				29E2B4AA2B1A48AF00316595 /* buildNetflixApp.swift */,
-				29E2B4AC2B1A48AF00316595 /* ContentView.swift */,
-				29E2B4AE2B1A48B100316595 /* Assets.xcassets */,
-				29E2B4B02B1A48B100316595 /* Preview Content */,
+				29E2B5472B1A593200316595 /* HomeView.swift */,
+				29E2B54F2B1A5B8600316595 /* HomeVM.swift */,
+				29E2B5172B1A56EC00316595 /* buildNetflixApp.swift */,
+				29E2B5192B1A56EC00316595 /* ContentView.swift */,
+				29E2B51B2B1A56ED00316595 /* Assets.xcassets */,
+				29E2B51D2B1A56EE00316595 /* Preview Content */,
+				29E2B5492B1A595600316595 /* Movie.swift */,
+				29E2B54B2B1A598E00316595 /* StandardHomeMovie.swift */,
+				29E2B54D2B1A59C600316595 /* GlobalHelpers.swift */,
 			);
 			path = buildNetflix;
 			sourceTree = "<group>";
 		};
-		29E2B4B02B1A48B100316595 /* Preview Content */ = {
+		29E2B51D2B1A56EE00316595 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				29E2B4B12B1A48B100316595 /* Preview Assets.xcassets */,
+				29E2B51E2B1A56EE00316595 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		29E2B4BA2B1A48B100316595 /* buildNetflixTests */ = {
+		29E2B5272B1A56EE00316595 /* buildNetflixTests */ = {
 			isa = PBXGroup;
 			children = (
-				29E2B4BB2B1A48B100316595 /* buildNetflixTests.swift */,
+				29E2B5282B1A56EE00316595 /* buildNetflixTests.swift */,
 			);
 			path = buildNetflixTests;
 			sourceTree = "<group>";
 		};
-		29E2B4C42B1A48B100316595 /* buildNetflixUITests */ = {
+		29E2B5312B1A56EE00316595 /* buildNetflixUITests */ = {
 			isa = PBXGroup;
 			children = (
-				29E2B4C52B1A48B100316595 /* buildNetflixUITests.swift */,
-				29E2B4C72B1A48B100316595 /* buildNetflixUITestsLaunchTests.swift */,
+				29E2B5322B1A56EE00316595 /* buildNetflixUITests.swift */,
+				29E2B5342B1A56EE00316595 /* buildNetflixUITestsLaunchTests.swift */,
 			);
 			path = buildNetflixUITests;
 			sourceTree = "<group>";
@@ -130,83 +147,86 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		29E2B4A62B1A48AF00316595 /* buildNetflix */ = {
+		29E2B5132B1A56EC00316595 /* buildNetflix */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 29E2B4CB2B1A48B100316595 /* Build configuration list for PBXNativeTarget "buildNetflix" */;
+			buildConfigurationList = 29E2B5382B1A56EE00316595 /* Build configuration list for PBXNativeTarget "buildNetflix" */;
 			buildPhases = (
-				29E2B4A32B1A48AF00316595 /* Sources */,
-				29E2B4A42B1A48AF00316595 /* Frameworks */,
-				29E2B4A52B1A48AF00316595 /* Resources */,
+				29E2B5102B1A56EC00316595 /* Sources */,
+				29E2B5112B1A56EC00316595 /* Frameworks */,
+				29E2B5122B1A56EC00316595 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = buildNetflix;
+			packageProductDependencies = (
+				29E2B5452B1A58BA00316595 /* Kingfisher */,
+			);
 			productName = buildNetflix;
-			productReference = 29E2B4A72B1A48AF00316595 /* buildNetflix.app */;
+			productReference = 29E2B5142B1A56EC00316595 /* buildNetflix.app */;
 			productType = "com.apple.product-type.application";
 		};
-		29E2B4B62B1A48B100316595 /* buildNetflixTests */ = {
+		29E2B5232B1A56EE00316595 /* buildNetflixTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 29E2B4CE2B1A48B100316595 /* Build configuration list for PBXNativeTarget "buildNetflixTests" */;
+			buildConfigurationList = 29E2B53B2B1A56EE00316595 /* Build configuration list for PBXNativeTarget "buildNetflixTests" */;
 			buildPhases = (
-				29E2B4B32B1A48B100316595 /* Sources */,
-				29E2B4B42B1A48B100316595 /* Frameworks */,
-				29E2B4B52B1A48B100316595 /* Resources */,
+				29E2B5202B1A56EE00316595 /* Sources */,
+				29E2B5212B1A56EE00316595 /* Frameworks */,
+				29E2B5222B1A56EE00316595 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				29E2B4B92B1A48B100316595 /* PBXTargetDependency */,
+				29E2B5262B1A56EE00316595 /* PBXTargetDependency */,
 			);
 			name = buildNetflixTests;
 			productName = buildNetflixTests;
-			productReference = 29E2B4B72B1A48B100316595 /* buildNetflixTests.xctest */;
+			productReference = 29E2B5242B1A56EE00316595 /* buildNetflixTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		29E2B4C02B1A48B100316595 /* buildNetflixUITests */ = {
+		29E2B52D2B1A56EE00316595 /* buildNetflixUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 29E2B4D12B1A48B100316595 /* Build configuration list for PBXNativeTarget "buildNetflixUITests" */;
+			buildConfigurationList = 29E2B53E2B1A56EE00316595 /* Build configuration list for PBXNativeTarget "buildNetflixUITests" */;
 			buildPhases = (
-				29E2B4BD2B1A48B100316595 /* Sources */,
-				29E2B4BE2B1A48B100316595 /* Frameworks */,
-				29E2B4BF2B1A48B100316595 /* Resources */,
+				29E2B52A2B1A56EE00316595 /* Sources */,
+				29E2B52B2B1A56EE00316595 /* Frameworks */,
+				29E2B52C2B1A56EE00316595 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				29E2B4C32B1A48B100316595 /* PBXTargetDependency */,
+				29E2B5302B1A56EE00316595 /* PBXTargetDependency */,
 			);
 			name = buildNetflixUITests;
 			productName = buildNetflixUITests;
-			productReference = 29E2B4C12B1A48B100316595 /* buildNetflixUITests.xctest */;
+			productReference = 29E2B52E2B1A56EE00316595 /* buildNetflixUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		29E2B49F2B1A48AF00316595 /* Project object */ = {
+		29E2B50C2B1A56EC00316595 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					29E2B4A62B1A48AF00316595 = {
+					29E2B5132B1A56EC00316595 = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
-					29E2B4B62B1A48B100316595 = {
+					29E2B5232B1A56EE00316595 = {
 						CreatedOnToolsVersion = 15.0.1;
-						TestTargetID = 29E2B4A62B1A48AF00316595;
+						TestTargetID = 29E2B5132B1A56EC00316595;
 					};
-					29E2B4C02B1A48B100316595 = {
+					29E2B52D2B1A56EE00316595 = {
 						CreatedOnToolsVersion = 15.0.1;
-						TestTargetID = 29E2B4A62B1A48AF00316595;
+						TestTargetID = 29E2B5132B1A56EC00316595;
 					};
 				};
 			};
-			buildConfigurationList = 29E2B4A22B1A48AF00316595 /* Build configuration list for PBXProject "buildNetflix" */;
+			buildConfigurationList = 29E2B50F2B1A56EC00316595 /* Build configuration list for PBXProject "buildNetflix" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -214,36 +234,39 @@
 				en,
 				Base,
 			);
-			mainGroup = 29E2B49E2B1A48AF00316595;
-			productRefGroup = 29E2B4A82B1A48AF00316595 /* Products */;
+			mainGroup = 29E2B50B2B1A56EC00316595;
+			packageReferences = (
+				29E2B5442B1A58BA00316595 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			productRefGroup = 29E2B5152B1A56EC00316595 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				29E2B4A62B1A48AF00316595 /* buildNetflix */,
-				29E2B4B62B1A48B100316595 /* buildNetflixTests */,
-				29E2B4C02B1A48B100316595 /* buildNetflixUITests */,
+				29E2B5132B1A56EC00316595 /* buildNetflix */,
+				29E2B5232B1A56EE00316595 /* buildNetflixTests */,
+				29E2B52D2B1A56EE00316595 /* buildNetflixUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		29E2B4A52B1A48AF00316595 /* Resources */ = {
+		29E2B5122B1A56EC00316595 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29E2B4B22B1A48B100316595 /* Preview Assets.xcassets in Resources */,
-				29E2B4AF2B1A48B100316595 /* Assets.xcassets in Resources */,
+				29E2B51F2B1A56EE00316595 /* Preview Assets.xcassets in Resources */,
+				29E2B51C2B1A56EE00316595 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		29E2B4B52B1A48B100316595 /* Resources */ = {
+		29E2B5222B1A56EE00316595 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		29E2B4BF2B1A48B100316595 /* Resources */ = {
+		29E2B52C2B1A56EE00316595 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -253,49 +276,54 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		29E2B4A32B1A48AF00316595 /* Sources */ = {
+		29E2B5102B1A56EC00316595 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29E2B4AD2B1A48AF00316595 /* ContentView.swift in Sources */,
-				29E2B4AB2B1A48AF00316595 /* buildNetflixApp.swift in Sources */,
+				29E2B54E2B1A59C600316595 /* GlobalHelpers.swift in Sources */,
+				29E2B5482B1A593200316595 /* HomeView.swift in Sources */,
+				29E2B5502B1A5B8600316595 /* HomeVM.swift in Sources */,
+				29E2B51A2B1A56EC00316595 /* ContentView.swift in Sources */,
+				29E2B54C2B1A598E00316595 /* StandardHomeMovie.swift in Sources */,
+				29E2B54A2B1A595600316595 /* Movie.swift in Sources */,
+				29E2B5182B1A56EC00316595 /* buildNetflixApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		29E2B4B32B1A48B100316595 /* Sources */ = {
+		29E2B5202B1A56EE00316595 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29E2B4BC2B1A48B100316595 /* buildNetflixTests.swift in Sources */,
+				29E2B5292B1A56EE00316595 /* buildNetflixTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		29E2B4BD2B1A48B100316595 /* Sources */ = {
+		29E2B52A2B1A56EE00316595 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29E2B4C82B1A48B100316595 /* buildNetflixUITestsLaunchTests.swift in Sources */,
-				29E2B4C62B1A48B100316595 /* buildNetflixUITests.swift in Sources */,
+				29E2B5352B1A56EE00316595 /* buildNetflixUITestsLaunchTests.swift in Sources */,
+				29E2B5332B1A56EE00316595 /* buildNetflixUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		29E2B4B92B1A48B100316595 /* PBXTargetDependency */ = {
+		29E2B5262B1A56EE00316595 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 29E2B4A62B1A48AF00316595 /* buildNetflix */;
-			targetProxy = 29E2B4B82B1A48B100316595 /* PBXContainerItemProxy */;
+			target = 29E2B5132B1A56EC00316595 /* buildNetflix */;
+			targetProxy = 29E2B5252B1A56EE00316595 /* PBXContainerItemProxy */;
 		};
-		29E2B4C32B1A48B100316595 /* PBXTargetDependency */ = {
+		29E2B5302B1A56EE00316595 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 29E2B4A62B1A48AF00316595 /* buildNetflix */;
-			targetProxy = 29E2B4C22B1A48B100316595 /* PBXContainerItemProxy */;
+			target = 29E2B5132B1A56EC00316595 /* buildNetflix */;
+			targetProxy = 29E2B52F2B1A56EE00316595 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		29E2B4C92B1A48B100316595 /* Debug */ = {
+		29E2B5362B1A56EE00316595 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -358,7 +386,7 @@
 			};
 			name = Debug;
 		};
-		29E2B4CA2B1A48B100316595 /* Release */ = {
+		29E2B5372B1A56EE00316595 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -414,7 +442,7 @@
 			};
 			name = Release;
 		};
-		29E2B4CC2B1A48B100316595 /* Debug */ = {
+		29E2B5392B1A56EE00316595 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -443,7 +471,7 @@
 			};
 			name = Debug;
 		};
-		29E2B4CD2B1A48B100316595 /* Release */ = {
+		29E2B53A2B1A56EE00316595 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -472,7 +500,7 @@
 			};
 			name = Release;
 		};
-		29E2B4CF2B1A48B100316595 /* Debug */ = {
+		29E2B53C2B1A56EE00316595 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -492,7 +520,7 @@
 			};
 			name = Debug;
 		};
-		29E2B4D02B1A48B100316595 /* Release */ = {
+		29E2B53D2B1A56EE00316595 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -512,7 +540,7 @@
 			};
 			name = Release;
 		};
-		29E2B4D22B1A48B100316595 /* Debug */ = {
+		29E2B53F2B1A56EE00316595 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -530,7 +558,7 @@
 			};
 			name = Debug;
 		};
-		29E2B4D32B1A48B100316595 /* Release */ = {
+		29E2B5402B1A56EE00316595 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -551,43 +579,62 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		29E2B4A22B1A48AF00316595 /* Build configuration list for PBXProject "buildNetflix" */ = {
+		29E2B50F2B1A56EC00316595 /* Build configuration list for PBXProject "buildNetflix" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				29E2B4C92B1A48B100316595 /* Debug */,
-				29E2B4CA2B1A48B100316595 /* Release */,
+				29E2B5362B1A56EE00316595 /* Debug */,
+				29E2B5372B1A56EE00316595 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		29E2B4CB2B1A48B100316595 /* Build configuration list for PBXNativeTarget "buildNetflix" */ = {
+		29E2B5382B1A56EE00316595 /* Build configuration list for PBXNativeTarget "buildNetflix" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				29E2B4CC2B1A48B100316595 /* Debug */,
-				29E2B4CD2B1A48B100316595 /* Release */,
+				29E2B5392B1A56EE00316595 /* Debug */,
+				29E2B53A2B1A56EE00316595 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		29E2B4CE2B1A48B100316595 /* Build configuration list for PBXNativeTarget "buildNetflixTests" */ = {
+		29E2B53B2B1A56EE00316595 /* Build configuration list for PBXNativeTarget "buildNetflixTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				29E2B4CF2B1A48B100316595 /* Debug */,
-				29E2B4D02B1A48B100316595 /* Release */,
+				29E2B53C2B1A56EE00316595 /* Debug */,
+				29E2B53D2B1A56EE00316595 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		29E2B4D12B1A48B100316595 /* Build configuration list for PBXNativeTarget "buildNetflixUITests" */ = {
+		29E2B53E2B1A56EE00316595 /* Build configuration list for PBXNativeTarget "buildNetflixUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				29E2B4D22B1A48B100316595 /* Debug */,
-				29E2B4D32B1A48B100316595 /* Release */,
+				29E2B53F2B1A56EE00316595 /* Debug */,
+				29E2B5402B1A56EE00316595 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		29E2B5442B1A58BA00316595 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.10.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		29E2B5452B1A58BA00316595 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 29E2B5442B1A58BA00316595 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 29E2B49F2B1A48AF00316595 /* Project object */;
+	rootObject = 29E2B50C2B1A56EC00316595 /* Project object */;
 }
